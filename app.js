@@ -20,6 +20,22 @@ app.get("/projects", (req, res) => {
     res.render("projects");
 });
 
+app.get("/education", (req, res) => {
+    res.render("education");
+});
+
+app.get("/achievements", (req, res) => {
+    res.render("achievements");
+});
+
+app.get("/resume", (req, res) => {
+    res.render("resume");
+});
+
+app.get("/contact", (req, res) => {
+    res.render("contact");
+});
+
 const PORT = 3000;
 
 app.listen(PORT, () => {

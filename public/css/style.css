@@ -187,3 +187,217 @@ body {
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
+.education-section {
+    padding: 100px 0;
+    min-height: 75vh;
+}
+
+.education-small-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.education-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.education-description {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.education-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 35px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.education-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.education-card h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education-card p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.achievements-section {
+    padding: 100px 0;
+    min-height: 75vh;
+}
+
+.achievements-small-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.achievements-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.achievements-description {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.achievement-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 30px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.achievement-card h3 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.achievement-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.achievement-issuer {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.resume-section {
+    padding: 100px 0;
+    min-height: 75vh;
+}
+
+.resume-small-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.resume-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.resume-card {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.resume-card h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.resume-card p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.contact-section {
+    padding: 100px 0;
+    min-height: 75vh;
+}
+
+.contact-small-text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.contact-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-card .form-label {
+    font-weight: 600;
+}
+
+.contact-card .form-control {
+    padding: 12px 15px;
+    border-radius: 8px;
+}
+
+.contact-card .form-control:focus {
+    box-shadow: none;
+    border-color: #212529;
+}
+
+.contact-card .btn {
+    padding: 12px 25px;
+    font-weight: 600;
+}
