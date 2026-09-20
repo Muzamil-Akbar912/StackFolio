@@ -16,6 +16,10 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
+app.get("/projects", (req, res) => {
+    res.render("projects");
+});
+
 const PORT = 3000;
 
 app.listen(PORT, () => {
