@@ -8,6 +8,8 @@ const session = require("express-session");
 const flash = require("connect-flash");
 
 const Contact = require("./models/Contact");
+const Project = require("./models/Project");
+
 
 const app = express();
 
@@ -47,6 +49,7 @@ mongoose.connect(process.env.MONGODB_URI)
     });
 
 
+
 // Home
 app.get("/", (req, res) => {
     res.render("home");
@@ -60,8 +63,9 @@ app.get("/about", (req, res) => {
 
 
 // Projects
-app.get("/projects", (req, res) => {
-    res.render("projects");
+app.get("/projects", async (req, res) => {
+    const projects = await Project.find().sort({ createdAt: -1 });
+    res.render("projects", { projects });
 });
 
 

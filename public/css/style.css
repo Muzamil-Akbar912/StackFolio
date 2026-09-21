@@ -1,3 +1,7 @@
+/* ==================================================
+   GLOBAL STYLES
+================================================== */
+
 body {
     margin: 0;
     background-color: #f8f9fa;
@@ -5,6 +9,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+/* ==================================================
+   HOME / HERO SECTION
+================================================== */
 
 .hero-section {
     flex: 1;
@@ -68,6 +77,11 @@ body {
     border: 3px solid #212529;
 }
 
+
+/* ==================================================
+   ABOUT SECTION
+================================================== */
+
 .about-section {
     padding: 100px 0;
     min-height: 75vh;
@@ -93,6 +107,11 @@ body {
     line-height: 1.8;
     margin-bottom: 20px;
 }
+
+
+/* ==================================================
+   SKILLS
+================================================== */
 
 .skill-card {
     padding: 30px;
@@ -120,6 +139,11 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
+
+/* ==================================================
+   PROJECTS SECTION
+================================================== */
+
 .projects-section {
     padding: 100px 0;
     min-height: 75vh;
@@ -145,6 +169,11 @@ body {
     margin: 0 auto;
 }
 
+
+/* ==================================================
+   PROJECT CARD
+================================================== */
+
 .project-card {
     background-color: #ffffff;
     border: 1px solid #dee2e6;
@@ -159,14 +188,32 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
+
+/* ==================================================
+   PROJECT IMAGE
+================================================== */
+
 .project-image {
-    height: 200px;
+    height: 220px;
     background-color: #e9ecef;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     font-weight: 600;
 }
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* ==================================================
+   PROJECT CONTENT
+================================================== */
 
 .project-content {
     padding: 25px;
@@ -187,6 +234,16 @@ body {
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
+.project-content .btn {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+
+/* ==================================================
+   EDUCATION SECTION
+================================================== */
 
 .education-section {
     padding: 100px 0;
@@ -212,6 +269,11 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
+
+
+/* ==================================================
+   EDUCATION CARD
+================================================== */
 
 .education-card {
     background-color: #ffffff;
@@ -243,6 +305,11 @@ body {
     line-height: 1.7;
 }
 
+
+/* ==================================================
+   ACHIEVEMENTS SECTION
+================================================== */
+
 .achievements-section {
     padding: 100px 0;
     min-height: 75vh;
@@ -267,6 +334,11 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
+
+
+/* ==================================================
+   ACHIEVEMENT CARD
+================================================== */
 
 .achievement-card {
     background-color: #ffffff;
@@ -298,6 +370,11 @@ body {
     margin-bottom: 15px;
 }
 
+
+/* ==================================================
+   RESUME SECTION
+================================================== */
+
 .resume-section {
     padding: 100px 0;
     min-height: 75vh;
@@ -322,6 +399,11 @@ body {
     max-width: 700px;
     margin: 0 auto 40px;
 }
+
+
+/* ==================================================
+   RESUME CARD
+================================================== */
 
 .resume-card {
     max-width: 700px;
@@ -350,6 +432,11 @@ body {
     margin-bottom: 25px;
 }
 
+
+/* ==================================================
+   CONTACT SECTION
+================================================== */
+
 .contact-section {
     padding: 100px 0;
     min-height: 75vh;
@@ -374,6 +461,11 @@ body {
     max-width: 700px;
     margin: 0 auto;
 }
+
+
+/* ==================================================
+   CONTACT FORM
+================================================== */
 
 .contact-card {
     background-color: #ffffff;
@@ -400,4 +492,161 @@ body {
 .contact-card .btn {
     padding: 12px 25px;
     font-weight: 600;
+}
+
+
+/* ==================================================
+   RESPONSIVE DESIGN
+================================================== */
+
+@media (max-width: 768px) {
+
+    /* Home */
+
+    .hero-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 24px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .profile-image {
+        width: 240px;
+        height: 240px;
+        margin-top: 40px;
+    }
+
+
+    /* About */
+
+    .about-section {
+        padding: 70px 0;
+    }
+
+    .about-title {
+        font-size: 38px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+
+    /* Projects */
+
+    .projects-section {
+        padding: 70px 0;
+    }
+
+    .projects-title {
+        font-size: 38px;
+    }
+
+    .projects-description {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-content h3 {
+        font-size: 22px;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+
+    /* Education */
+
+    .education-section {
+        padding: 70px 0;
+    }
+
+    .education-title {
+        font-size: 38px;
+    }
+
+    .education-description {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .education-card {
+        padding: 25px;
+    }
+
+
+    /* Achievements */
+
+    .achievements-section {
+        padding: 70px 0;
+    }
+
+    .achievements-title {
+        font-size: 38px;
+    }
+
+    .achievements-description {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .achievement-card {
+        padding: 25px;
+    }
+
+
+    /* Resume */
+
+    .resume-section {
+        padding: 70px 0;
+    }
+
+    .resume-title {
+        font-size: 38px;
+    }
+
+    .resume-description {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .resume-card {
+        padding: 30px 20px;
+    }
+
+
+    /* Contact */
+
+    .contact-section {
+        padding: 70px 0;
+    }
+
+    .contact-title {
+        font-size: 38px;
+    }
+
+    .contact-description {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .contact-card {
+        padding: 25px 20px;
+    }
+
 }
