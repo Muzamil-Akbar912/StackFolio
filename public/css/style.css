@@ -569,6 +569,24 @@ body {
         height: 200px;
     }
 
+    .project-empty-state {
+        padding: 50px 20px;
+        background-color: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 12px;
+    }
+
+    .project-empty-state h3 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .project-empty-state p {
+        margin-bottom: 0;
+        line-height: 1.6;
+    }
+
 
     /* Education */
 
